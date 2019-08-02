@@ -146,7 +146,8 @@ class ReceiptsViewController: UIViewController, UITableViewDelegate, UIImagePick
             }
         }
         // API Setup:
-        let key = "a31246109d0211e98bfadfb7eb1aa8b5" // API-Key
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let key = appDelegate.API_KEY // API-Key here
         guard let url = URL(string: "https://api-au.taggun.io/api/receipt/v1/verbose/file") else {
             return
         } // URL for API
