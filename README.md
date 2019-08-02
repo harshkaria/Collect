@@ -6,7 +6,7 @@ Using the TagGun API, we built an app that allows for anyone to scan a receipt, 
 
 Data is stored on device, courtesy of Core Data.
 
-To use, set your ![TagGun](https://www.google.com/search?client=firefox-b-1-d&q=taggun) API Key in AppDelegate.swift
+To use, set your [TagGun!](https://www.google.com/search?client=firefox-b-1-d&q=taggun) API Key in AppDelegate.swift
 
 # Screenshots
 ![Home](https://github.com/harshkaria/Collect/blob/master/Images/Collect%20iPhone%20Xs%20Mockup-%20Home.png)
