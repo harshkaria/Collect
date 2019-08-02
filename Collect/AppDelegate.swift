@@ -13,6 +13,7 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    #error("Please add your TagGun API key below and remove this line.")
     var API_KEY = "" // TagGun API  here
 
 
