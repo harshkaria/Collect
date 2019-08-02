@@ -22,7 +22,7 @@ To use, set your [TagGun](https://www.taggun.io/) API Key in AppDelegate.swift
 ![Messages](https://github.com/harshkaria/Collect/blob/master/Images/Collect%20iPhone%20Xs%20Mockup-%20messages.png)
 ![Paid Marking](https://github.com/harshkaria/Collect/blob/master/Images/Collect%20iPhone%20Xs%20Mockup-%20whos%20paid.png)
 
-## Originally.Created By:
+## Originally Created By:
 Zachary Jicha: zjicha@ucsc.edu  
 Rizzian Tuazon: rtuazon@ucsc.edu  
 Norris Chan: nchan6@ucsc.edu  
