@@ -1,5 +1,5 @@
 # Collect
-## An iOS app that eliminates the calculator app for receipt splitting -  built using Swift
+### An iOS app that eliminates the calculator app for receipt splitting -  built using Swift
 
 # Overview
 Using the TagGun API, we built an app that allows for anyone to scan a receipt, add people to a group, send out divided costs to people in the group, and keep track of who's paid.
