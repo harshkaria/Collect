@@ -4,7 +4,7 @@
 # Overview
 Using the TagGun API, we built an app that allows for anyone to scan a receipt, add people to a group, send out divided costs to people in the group, and keep track of who's paid.
 
-Data is stored on device, curteousy of Core Data.
+Data is stored on device, courtesy of Core Data.
 
 # Screenshots
 ![Home](https://github.com/harshkaria/Collect/blob/master/Images/Collect%20iPhone%20Xs%20Mockup-%20Home.png)
