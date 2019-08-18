@@ -13,8 +13,7 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    #error("Please add your TagGun API key below and remove this line.")
-    var API_KEY = "" // TagGun API  here
+    var API_KEY = "98ae1120be0111e98bfadfb7eb1aa8b5" // TagGun API  here
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

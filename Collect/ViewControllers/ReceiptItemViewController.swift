@@ -103,7 +103,7 @@ class ReceiptItemViewController: UIViewController, UITableViewDelegate, UITableV
                 //If all conditions met
                 else {
                     //Checks if item name is already in list
-                    if (self.AllItems[indexPath.row].CheckForDuplicateItemName(itemName: getNewName.text!) > 0) {
+                    if (self.AllItems[indexPath.row].CheckForDuplicateItemName(itemName: getNewName.text!) > 0 && self.AllItems[indexPath.row].itemName != getNewName.text!) {
                         SCLAlertView().showError("Edit Error", subTitle: "Item name already exists", colorStyle:0xFF002A)
                         return
                     }
