@@ -13,7 +13,7 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var API_KEY = "98ae1120be0111e98bfadfb7eb1aa8b5" // TagGun API  here
+    var API_KEY = "" // TagGun API  here
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -82,10 +82,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
-    //NOTE TO SELF(Rizzian): Create function that saves specific data
     
-    //REMINDER:  DISCUSS WITH UI TEAM ABOUT HOW THEY'LL IMPLEMENT UI
-        //DATA STORAGE IS VERY PARTICULAR WHEN IT COMES TO WHERE DATA FUNCTIONS ARE LOCATED
     
     
     
