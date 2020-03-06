@@ -51,12 +51,8 @@ extension PeopleList
     //Function that changes the table row status to Paid
     func ChangePaymentStatus() {
         //Checks if hasPaid status is paid or not to change/flip it to the correct status
-        if (self.hasPaid == true) {
-            self.hasPaid = false
-        }
-        else {
-            self.hasPaid = true
-        }
+        self.hasPaid = !self.hasPaid
+        
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
     }
     
