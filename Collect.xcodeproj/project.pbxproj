@@ -16,8 +16,11 @@
 		AE82827522F4EB22004B1664 /* SelectNamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82826F22F4EB22004B1664 /* SelectNamesViewController.swift */; };
 		AE82827622F4EB22004B1664 /* DebtListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82827022F4EB22004B1664 /* DebtListViewController.swift */; };
 		AE82827722F4EB22004B1664 /* ReceiptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82827122F4EB22004B1664 /* ReceiptsViewController.swift */; };
-		AEB0515022F4EC9500507C34 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB0514F22F4EC9500507C34 /* arrow.png */; };
-		AEB0515222F4ECA200507C34 /* imageicon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB0515122F4ECA200507C34 /* imageicon.png */; };
+		AE90724124121C3F0050FDA8 /* PeoplePaying+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90724024121C3F0050FDA8 /* PeoplePaying+CoreDataProperties.swift */; };
+		AE90724224121C3F0050FDA8 /* PeoplePaying+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90723F24121C3F0050FDA8 /* PeoplePaying+CoreDataClass.swift */; };
+		AE90724924121CDB0050FDA8 /* PeopleList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90724724121CDB0050FDA8 /* PeopleList+CoreDataClass.swift */; };
+		AE90724A24121CDB0050FDA8 /* PeopleList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90724824121CDB0050FDA8 /* PeopleList+CoreDataProperties.swift */; };
+		AE90724D24121E570050FDA8 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AE90724C24121E570050FDA8 /* arrow.png */; };
 		AEB0515822F4ED3600507C34 /* icons8-info-75.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB0515722F4ED3600507C34 /* icons8-info-75.png */; };
 		AEB0515B22F4EFCF00507C34 /* DataManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB0515A22F4EFCF00507C34 /* DataManagement.swift */; };
 		EB6F20C85A21879ED50E72F3 /* Pods_Collect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F6CA95C85C86E3FC63F85D /* Pods_Collect.framework */; };
@@ -46,8 +49,11 @@
 		AE82826F22F4EB22004B1664 /* SelectNamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectNamesViewController.swift; sourceTree = "<group>"; };
 		AE82827022F4EB22004B1664 /* DebtListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebtListViewController.swift; sourceTree = "<group>"; };
 		AE82827122F4EB22004B1664 /* ReceiptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptsViewController.swift; sourceTree = "<group>"; };
-		AEB0514F22F4EC9500507C34 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = "../../../../../School/Summer 2019/CMPS 115 - Intro to Software Engineering/Collect/Collect/Collect/arrow.png"; sourceTree = "<group>"; };
-		AEB0515122F4ECA200507C34 /* imageicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageicon.png; path = "../../../../../School/Summer 2019/CMPS 115 - Intro to Software Engineering/Collect/Collect/Collect/imageicon.png"; sourceTree = "<group>"; };
+		AE90723F24121C3F0050FDA8 /* PeoplePaying+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PeoplePaying+CoreDataClass.swift"; path = "/Users/harshkaria/Desktop/Collect/Collect/Database Management/PeoplePaying+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		AE90724024121C3F0050FDA8 /* PeoplePaying+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PeoplePaying+CoreDataProperties.swift"; path = "/Users/harshkaria/Desktop/Collect/Collect/Database Management/PeoplePaying+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		AE90724724121CDB0050FDA8 /* PeopleList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PeopleList+CoreDataClass.swift"; path = "../../PeopleList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AE90724824121CDB0050FDA8 /* PeopleList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PeopleList+CoreDataProperties.swift"; path = "../../PeopleList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AE90724C24121E570050FDA8 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = "../../../School/Summer 2019/CMPS 115 - Intro to Software Engineering/Collect/Collect/Collect/arrow.png"; sourceTree = "<group>"; };
 		AEB0515722F4ED3600507C34 /* icons8-info-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-info-75.png"; sourceTree = "<group>"; };
 		AEB0515A22F4EFCF00507C34 /* DataManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagement.swift; sourceTree = "<group>"; };
 		E0F6CA95C85C86E3FC63F85D /* Pods_Collect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +96,10 @@
 		15BF540422E0E71000BB1C22 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				AE90724724121CDB0050FDA8 /* PeopleList+CoreDataClass.swift */,
+				AE90724824121CDB0050FDA8 /* PeopleList+CoreDataProperties.swift */,
+				AE90723F24121C3F0050FDA8 /* PeoplePaying+CoreDataClass.swift */,
+				AE90724024121C3F0050FDA8 /* PeoplePaying+CoreDataProperties.swift */,
 				AE57F17A22F4F0CC0010CF9E /* Collect.xcdatamodeld */,
 				EDF7C62E22E5627700D485C8 /* Receipt+CoreDataClass.swift */,
 				EDF7C62F22E5627700D485C8 /* Receipt+CoreDataProperties.swift */,
@@ -120,9 +130,8 @@
 		AE82826B22F4EAE7004B1664 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AE90724C24121E570050FDA8 /* arrow.png */,
 				AEB0515722F4ED3600507C34 /* icons8-info-75.png */,
-				AEB0515122F4ECA200507C34 /* imageicon.png */,
-				AEB0514F22F4EC9500507C34 /* arrow.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -247,12 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED972B0D22D6B68800CD6B01 /* LaunchScreen.storyboard in Resources */,
+				AE90724D24121E570050FDA8 /* arrow.png in Resources */,
 				AEB0515822F4ED3600507C34 /* icons8-info-75.png in Resources */,
 				ED972B0A22D6B68800CD6B01 /* Assets.xcassets in Resources */,
-				AEB0515222F4ECA200507C34 /* imageicon.png in Resources */,
 				15BF540122E0DD0F00BB1C22 /* Loading-Final TM.gif in Resources */,
 				ED972B0522D6B68300CD6B01 /* Main.storyboard in Resources */,
-				AEB0515022F4EC9500507C34 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE90724A24121CDB0050FDA8 /* PeopleList+CoreDataProperties.swift in Sources */,
 				AE57F17C22F4F0CC0010CF9E /* Collect.xcdatamodeld in Sources */,
 				EDF7C63022E5627700D485C8 /* Receipt+CoreDataClass.swift in Sources */,
 				AE82827322F4EB22004B1664 /* ItemListViewController.swift in Sources */,
@@ -315,10 +324,13 @@
 				EDF7C63822E80C2900D485C8 /* ReceiptEntityExtension.swift in Sources */,
 				EDFCA73622E2D450007ED8BA /* ReceiptItems+CoreDataProperties.swift in Sources */,
 				AE82827422F4EB22004B1664 /* ReceiptItemViewController.swift in Sources */,
+				AE90724924121CDB0050FDA8 /* PeopleList+CoreDataClass.swift in Sources */,
 				EDF7C63D22E80C7600D485C8 /* ReceiptItemsEntityExtension.swift in Sources */,
 				EDFCA73522E2D450007ED8BA /* ReceiptItems+CoreDataClass.swift in Sources */,
 				AE82827722F4EB22004B1664 /* ReceiptsViewController.swift in Sources */,
 				AE82827522F4EB22004B1664 /* SelectNamesViewController.swift in Sources */,
+				AE90724224121C3F0050FDA8 /* PeoplePaying+CoreDataClass.swift in Sources */,
+				AE90724124121C3F0050FDA8 /* PeoplePaying+CoreDataProperties.swift in Sources */,
 				AE82827222F4EB22004B1664 /* RecipientsViewController.swift in Sources */,
 				ED972B0022D6B68300CD6B01 /* AppDelegate.swift in Sources */,
 			);
