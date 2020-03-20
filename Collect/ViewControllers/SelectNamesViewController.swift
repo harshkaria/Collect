@@ -21,7 +21,8 @@ class SelectNamesViewController: UIViewController, UITableViewDelegate, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchPeople(receiptName: receiptName)
+        peopleArray = PeopleList.FetchPeopleList(with: receiptName) ?? []
+        
         self.tableView.reloadData()
         tableView.delegate = self
         tableView.dataSource = self

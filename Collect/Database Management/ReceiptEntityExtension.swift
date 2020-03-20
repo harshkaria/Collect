@@ -70,7 +70,7 @@ extension Receipt {
     }
     
     //Function that deletes a specific person from PeopleList that is associated with this receipt
-    func DeletePersonFromReceipt (nameOfPerson: String) {
+    func DeletePersonFromReceipt (with nameOfPerson: String) {
         let request: NSFetchRequest<PeopleList> = PeopleList.fetchRequest()
         
         //NSPredicate to specify arguments for what to look up
